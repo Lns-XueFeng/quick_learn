@@ -29,11 +29,8 @@ if __name__ == "__main__":
 
     # 获得数据库中的urls
     values = check_all()
-    # print(values)
-
     # 获得命令行参数列表
     argv = sys.argv
-
     # 实例化quick_start
     quick_start = QuickStart(values)
 
